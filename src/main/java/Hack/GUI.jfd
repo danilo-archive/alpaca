@@ -1,0 +1,70 @@
+JFDML JFormDesigner: "6.0.2.0.116" Java: "1.8.0_152-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq {par l {seq {space :p:38:p, comp label1:::p::p}, seq l {par l {seq {space :::p, comp textField1:::p:170:p}, seq l {space :p:50:p, comp button1:::p::p}, seq l {space :p:21:p, comp button3:::p::p, space :p:41:p, comp button5:::p:29:p}}, space :p:20:p, par l {seq {space :p:36:p, par l {comp button4:::p::p, comp button2:::p::p}}, comp textField2::l:p:177:p}}}, space :::p, comp scrollPane1::::506:x, space :::p}}"
+			"$verticalGroup": "par l {seq t {par t {seq {space :p:14:p, comp label1:::p:202:p, space :p:190:p, par b {comp textField1::b:p::p, comp textField2::b:p::p}, par l {seq {par b {comp button2::b:p::p, comp button1::b:p::p}, space ::189:x, par l {comp button3:::p::p, comp button4:::p::p}}, seq t {space ::268:x, comp button5:::p:22:p}}, space :p:11:p}, comp scrollPane1::::738:x}, space :::p}}"
+		} ) {
+			name: "this"
+			"background": new java.awt.Color( 255, 255, 255, 255 )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				"icon": new com.jformdesigner.model.SwingIcon( 1, "C:\\Users\\delbu\\IdeaProjects\\hack\\src\\images\\logo.png" )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button1"
+				"text": "Browse"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button1ActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button2"
+				"text": "Browse"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button2ActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField1"
+				"text": "Choose a video file"
+				"foreground": sfield java.awt.Color lightGray
+				"editable": false
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField2"
+				"text": "Choose a pdf file"
+				"foreground": sfield java.awt.Color lightGray
+				"editable": false
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button3"
+				"text": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				"icon": new com.jformdesigner.model.SwingIcon( 1, "C:\\Users\\delbu\\IdeaProjects\\hack\\src\\images\\alpaca.png" )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button3ActionPerformed", true ) )
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane1"
+				"verticalScrollBarPolicy": 22
+				"autoscrolls": true
+				add( new FormComponent( "javax.swing.JTextArea" ) {
+					name: "textArea1"
+					"font": new java.awt.Font( "Lucida Console", 0, 16 )
+					"editable": false
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button4"
+				"icon": new com.jformdesigner.model.SwingIcon( 1, "C:\\Users\\delbu\\IdeaProjects\\hack\\src\\images\\projector.png" )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button4ActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button5"
+				"text": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button5ActionPerformed", true ) )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 5, 0 )
+			"size": new java.awt.Dimension( 730, 595 )
+		} )
+	}
+}
