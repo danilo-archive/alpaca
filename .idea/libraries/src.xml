@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="src">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/javaFlacEncoder-0.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/jave-1.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/textcat-1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

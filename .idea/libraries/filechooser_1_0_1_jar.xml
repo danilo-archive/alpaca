@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="filechooser-1.0.1.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/images/filechooser-1.0.1.jar.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
